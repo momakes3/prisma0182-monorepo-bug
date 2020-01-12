@@ -1,0 +1,14 @@
+{
+  "workspaces": [
+    "api",
+    "frontend"
+  ],
+  "private": true,
+  "scripts": {
+    "postinstall": "prisma2 generate"
+  },
+  "dependencies": {
+    "@prisma/photon": "^2.0.0-preview018.2",
+    "prisma2": "^2.0.0-preview018.2"
+  }
+}
